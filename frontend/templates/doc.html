@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Viewer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-gray-700 text-white font-sans">
+
+<div class="flex h-screen">
+    <div class="flex-1 overflow-y-auto p-8 bg-white h-full">
+        <h2 class="text-3xl font-bold mb-8 text-black"> Mathematics  Assistant for Programming and Coding Interviews.</h2>
+        <!-- Sample list of documents -->
+        <div class=" text-black">
+            <p>
+                Mastering Mathematics for Interview Success
+
+                Mathematics is a fundamental skill that plays a crucial role in various job interviews, especially in fields such as finance, engineering, data science, and technology. Employers often use mathematical questions to assess a candidate's problem-solving abilities, analytical thinking, and quantitative reasoning skills. To excel in interviews that involve mathematics, it's essential to have a solid understanding of key concepts and practice solving problems efficiently. Here's a guide to mastering mathematics for interview success:
+                
+                1. Strengthen your Foundation:
+                   - Review fundamental concepts: Ensure you have a strong grasp of basic arithmetic, algebra, geometry, calculus, and statistics.
+                   - Brush up on key formulas and theorems: Familiarize yourself with essential mathematical formulas and theorems relevant to your field of interest.
+                
+                2. Practice Regularly:
+                   - Solve problems consistently: Practice solving a wide range of mathematical problems regularly to improve your problem-solving skills and build confidence.
+                   - Work on challenging problems: Challenge yourself with problems that require critical thinking and creativity to develop your analytical skills.
+                
+                3. Understand Problem-solving Techniques:
+                   - Break down complex problems: Learn to break down complex problems into smaller, more manageable steps to facilitate problem-solving.
+                   - Develop systematic approaches: Practice using systematic problem-solving techniques such as drawing diagrams, making assumptions, and using trial and error.
+                
+                4. Familiarize Yourself with Interview-style Questions:
+                   - Research common interview questions: Familiarize yourself with typical mathematical questions asked in interviews for your desired role or industry.
+                   - Practice under timed conditions: Mimic interview conditions by practicing solving problems within a time limit to improve your speed and accuracy.
+                
+                5. Learn from Resources:
+                   - Utilize textbooks and online resources: Refer to textbooks, online courses, and tutorials to reinforce your understanding of mathematical concepts and learn new techniques.
+                   - Solve sample interview questions: Work through sample interview questions available in books, websites, and forums to expose yourself to a variety of problem types.
+                
+                6. Seek Feedback and Iterate:
+                   - Review your solutions: After solving problems, review your solutions carefully to identify any errors or areas for improvement.
+                   - Seek feedback from peers or mentors: Collaborate with peers or seek feedback from mentors to gain insights into alternative problem-solving approaches and techniques.
+                
+                7. Stay Calm and Confident:
+                   - Practice mindfulness techniques: Stay calm and focused during interviews by practicing mindfulness techniques such as deep breathing and visualization.
+                   - Project confidence: Approach mathematical problems with confidence, even if you encounter challenges. Communicate your thought process clearly and logically.
+                
+                Conclusion:
+                Mastering mathematics for interviews requires dedication, practice, and a strategic approach. By strengthening your mathematical foundation, practicing regularly, understanding problem-solving techniques, familiarizing yourself with interview-style questions, utilizing resources effectively, seeking feedback, and staying calm and confident, you can enhance your chances of success in interviews that involve mathematics. Remember, consistent practice and continuous learning are key to mastering mathematical concepts and excelling in interviews.
+            </p>
+        </div>
+        <!-- Add more document links as needed -->
+    </div>
+    <div class="flex-1 bg-gray-700 p-8">
+        <h2 class="text-3xl font-bold mb-8">Q&A Assistant</h2>
+        <!-- AI Q&A assistant content goes here -->
+        <div id="qna-container" class="text-gray-200">
+            <!-- Q&A assistant content will be dynamically populated here -->
+        </div>
+        <div class="mt-8">
+            <input type="text" id="prompt" class="w-full bg-gray-800 border-2 border-gray-600 focus:outline-none focus:border-blue-500 px-4 py-2 rounded-md" placeholder="Type your prompt here...">
+            <button id="submitBtn" class="mt-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 focus:outline-none focus:bg-blue-600 rounded-md">Submit</button>
+        </div>
+    </div>
+</div>
+
+<script src="../scripts/preview.js"></script>
+
+</body>
+</html>

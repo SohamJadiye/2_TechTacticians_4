@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Viewer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-gray-700 text-white font-sans">
+
+<div class="flex h-screen">
+    <div class="flex-1 overflow-y-auto p-8 bg-white h-full">
+        <h2 class="text-3xl font-bold mb-8 text-black"> Finance Calculator</h2>
+        <!-- Sample list of documents -->
+        <div class=" text-black">
+            <p>
+                Introducing the Finance Calculator: Your Financial Companion
+
+                In the realm of personal and professional finance, making informed decisions is paramount. Whether you're planning for retirement, investing in the stock market, or managing debt, having access to accurate financial calculations can significantly impact your financial well-being. Enter the Finance Calculator – a versatile tool designed to empower individuals and businesses with the ability to perform a wide range of financial calculations quickly and efficiently.
+                
+                Key Features:
+                
+                1. Loan and Mortgage Calculations: The Finance Calculator simplifies complex loan and mortgage calculations, allowing users to determine monthly payments, total interest paid, amortization schedules, and more. Whether you're considering a home purchase or evaluating refinancing options, the calculator provides valuable insights into your financial commitments.
+                
+                2. Investment Analysis: From calculating compound interest and future value to analyzing investment returns and dividend yields, the Finance Calculator equips users with the tools to make informed investment decisions. By adjusting variables such as interest rates, time horizon, and contribution amounts, users can assess the potential growth of their investments over time.
+                
+                3. Retirement Planning: Planning for retirement requires careful consideration of factors such as savings rate, retirement age, inflation, and expected returns. The Finance Calculator streamlines retirement planning by projecting future retirement savings, estimating retirement income needs, and determining the viability of different retirement strategies.
+                
+                4. Budgeting and Savings Goals: Whether you're saving for a vacation, a down payment on a home, or a child's education, the Finance Calculator helps you set and track progress towards your savings goals. By inputting savings targets, monthly contributions, and expected returns, users can develop realistic savings plans and stay on track to achieve their financial objectives.
+                
+                5. Debt Management: Managing debt effectively is essential for achieving financial stability. The Finance Calculator facilitates debt management by calculating debt payoff schedules, determining the cost of borrowing, and comparing payoff strategies such as the debt snowball and debt avalanche methods. With this information, users can develop strategies to eliminate debt efficiently and minimize interest costs.
+                
+                Benefits:
+                
+                1. Empower Informed Decision-Making: By providing accurate and comprehensive financial calculations, the Finance Calculator empowers individuals and businesses to make informed decisions regarding loans, investments, retirement planning, savings goals, and debt management.
+                
+                2. Save Time and Effort: Performing complex financial calculations manually can be time-consuming and prone to errors. The Finance Calculator automates the calculation process, saving users time and effort while ensuring accuracy and reliability.
+                
+                3. Gain Financial Insights: Whether you're a novice or a seasoned financial professional, the Finance Calculator offers valuable insights into various financial scenarios, allowing users to explore different options, compare outcomes, and optimize their financial strategies.
+                
+                4. Enhance Financial Literacy: By making financial calculations accessible and easy to understand, the Finance Calculator promotes financial literacy and empowers users to take control of their financial futures.
+                
+                Conclusion:
+                
+                The Finance Calculator is more than just a tool – it's a companion on your financial journey, providing the resources and insights you need to navigate the complexities of personal and professional finance with confidence. Whether you're planning for major life events, managing day-to-day finances, or striving to achieve long-term financial goals, the Finance Calculator is here to support you every step of the way. Unlock the power of financial calculation and take control of your financial destiny today.
+            </p>
+        </div>
+        <!-- Add more document links as needed -->
+    </div>
+    <div class="flex-1 bg-gray-700 p-8">
+        <h2 class="text-3xl font-bold mb-8">Q&A Assistant</h2>
+        <!-- AI Q&A assistant content goes here -->
+        <div id="qna-container" class="text-gray-200">
+            <!-- Q&A assistant content will be dynamically populated here -->
+        </div>
+        <div class="mt-8">
+            <input type="text" id="prompt" class="w-full bg-gray-800 border-2 border-gray-600 focus:outline-none focus:border-blue-500 px-4 py-2 rounded-md" placeholder="Type your prompt here...">
+            <button id="submitBtn" class="mt-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 focus:outline-none focus:bg-blue-600 rounded-md">Submit</button>
+        </div>
+    </div>
+</div>
+
+<script src="../scripts/preview.js"></script>
+
+</body>
+</html>

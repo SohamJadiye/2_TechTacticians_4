@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Viewer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-gray-700 text-white font-sans">
+
+<div class="flex h-screen">
+    <div class="flex-1 overflow-y-auto p-8 bg-white h-full">
+        <h2 class="text-3xl font-bold mb-8 text-black">Java Algorithm Visualizer</h2>
+        <!-- Sample list of documents -->
+        <div class=" text-black">
+            <p>
+                Java Algorithm Visualizer: Bringing Algorithms to Life
+
+Java Algorithm Visualizer is a powerful tool that allows developers to visualize the execution of algorithms, making complex algorithms more accessible and understandable. With its intuitive interface and interactive features, it offers a dynamic way to explore various algorithms and understand their inner workings. Whether you're a student learning algorithms, a developer preparing for technical interviews, or an educator teaching algorithmic concepts, Java Algorithm Visualizer provides a valuable platform for experimentation and learning.
+
+Key Features:
+
+1. Interactive Visualization: Java Algorithm Visualizer offers interactive visualizations that illustrate how algorithms operate step by step. Users can observe the algorithm's progress in real-time, helping them grasp key concepts and understand algorithmic behaviors effectively.
+
+2. Wide Range of Algorithms: The tool supports a diverse range of algorithms, including sorting algorithms (such as bubble sort, quicksort, and merge sort), searching algorithms (like linear search and binary search), graph algorithms (including breadth-first search and depth-first search), and more. Users can choose from a variety of algorithms to visualize and compare their performance.
+
+3. Customizable Parameters: Users can customize parameters such as input size, speed of execution, and visualization style to tailor the visualization to their specific needs. This flexibility allows users to explore how algorithms behave under different conditions and gain deeper insights into their performance characteristics.
+
+4. Code Exploration: Java Algorithm Visualizer provides access to the underlying code of each algorithm, allowing users to examine the implementation details and understand the logic behind the algorithm's operations. This feature is particularly useful for developers who want to study and analyze algorithms more closely.
+
+5. Educational Resources: The tool offers educational resources, including explanations, tutorials, and examples, to help users understand algorithmic concepts and improve their problem-solving skills. These resources complement the visualizations, providing additional context and guidance for learners at all levels.
+
+6. Platform Independence: As Java Algorithm Visualizer is built using Java, it is platform-independent and can run on any system with Java Runtime Environment (JRE) installed. This cross-platform compatibility ensures that users can access and utilize the tool regardless of their operating system.
+
+Benefits:
+
+1. Enhanced Learning Experience: Visualizing algorithms makes abstract concepts more tangible and engaging, facilitating better comprehension and retention of algorithmic principles.
+
+2. Effective Teaching Tool: Educators can use Java Algorithm Visualizer to supplement traditional teaching methods and enhance student understanding through interactive demonstrations and hands-on activities.
+
+3. Preparation for Technical Interviews: Developers can use the tool to practice implementing and analyzing algorithms commonly asked in technical interviews, helping them hone their problem-solving skills and boost their confidence.
+
+4. Exploratory Analysis: Researchers and professionals can use Java Algorithm Visualizer for exploratory analysis and experimentation, allowing them to explore different algorithmic techniques and evaluate their performance in various scenarios.
+
+Conclusion:
+
+Java Algorithm Visualizer is a versatile tool that offers a rich learning experience for exploring and understanding algorithms. With its interactive visualizations, customizable parameters, educational resources, and platform independence, it serves as a valuable resource for students, educators, developers, and researchers alike. By bringing algorithms to life, Java Algorithm Visualizer empowers users to gain a deeper understanding of algorithmic concepts and become more proficient problem solvers in the world of computer science and software development.
+            </p>
+        </div>
+        <!-- Add more document links as needed -->
+    </div>
+    <div class="flex-1 bg-gray-700 p-8">
+        <h2 class="text-3xl font-bold mb-8">Q&A Assistant</h2>
+        <!-- AI Q&A assistant content goes here -->
+        <div id="qna-container" class="text-gray-200">
+            <!-- Q&A assistant content will be dynamically populated here -->
+        </div>
+        <div class="mt-8">
+            <input type="text" id="prompt" class="w-full bg-gray-800 border-2 border-gray-600 focus:outline-none focus:border-blue-500 px-4 py-2 rounded-md" placeholder="Type your prompt here...">
+            <button id="submitBtn" class="mt-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 focus:outline-none focus:bg-blue-600 rounded-md">Submit</button>
+        </div>
+    </div>
+</div>
+
+<script src="../scripts/preview.js"></script>
+
+</body>
+</html>

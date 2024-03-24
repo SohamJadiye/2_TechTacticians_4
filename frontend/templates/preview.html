@@ -9,12 +9,36 @@
 <body class="bg-gradient-to-br from-gray-900 to-gray-700 text-white font-sans">
 
 <div class="flex h-screen">
-    <div class="flex-1 overflow-y-auto p-8">
-        <h2 class="text-3xl font-bold mb-8">Document Preview</h2>
+    <div class="flex-1 overflow-y-auto p-8 bg-white h-full">
+        <h2 class="text-3xl font-bold mb-8 text-black">Ethereum Smart  Contract Analysis Toolkit</h2>
         <!-- Sample list of documents -->
-        <div class="bg-white h-full">
+        <div class=" text-black">
             <p>
-                <!-- Add document links here -->
+                Understanding Ethereum Smart Contract Analysis
+
+Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller being directly written into code. They run on blockchain networks like Ethereum, ensuring transparency, security, and autonomy in transactions without intermediaries. However, despite their benefits, smart contracts can be vulnerable to bugs, security flaws, and inefficiencies. Therefore, rigorous analysis is essential to ensure their reliability and security.
+
+Types of Analysis:
+
+1. Static Analysis: This involves examining the code without executing it. Static analysis tools scan the smart contract code for potential vulnerabilities, such as reentrancy bugs, integer overflow/underflow, and unauthorized access patterns. By identifying issues at the code level, developers can mitigate risks before deployment.
+
+2. Dynamic Analysis: Unlike static analysis, dynamic analysis involves executing the smart contract code in a controlled environment to observe its behavior. This includes simulating various scenarios to identify vulnerabilities like denial-of-service attacks, gas inefficiency, and unexpected interactions with other contracts.
+
+3. Formal Verification: Formal verification uses mathematical methods to prove the correctness of smart contracts against specified properties. By formally specifying the desired behavior and verifying it against the code, developers can ensure that the contract behaves as intended under all circumstances, eliminating potential vulnerabilities.
+
+Common Tools and Techniques:
+
+1. MythX: MythX is a security analysis platform for Ethereum smart contracts. It offers both static and dynamic analysis tools to detect vulnerabilities, generate comprehensive reports, and provide remediation advice. MythX integrates seamlessly with popular development environments, making it a preferred choice for many Ethereum developers.
+
+2. Truffle Suite: Truffle is a development framework for Ethereum that offers built-in testing, debugging, and deployment tools. Truffle's testing framework enables developers to write automated tests to ensure the correctness and security of their smart contracts. Additionally, Truffle integrates with external analysis tools, enhancing its capabilities in smart contract analysis.
+
+3. Slither: Slither is an open-source static analysis framework for Solidity smart contracts. It detects vulnerabilities such as unchecked calls, reentrancy, and code duplication. Slither provides detailed reports with recommendations for remediation, empowering developers to write more secure smart contracts.
+
+4. Property-based Testing: Property-based testing involves specifying properties or invariants that should hold true for the smart contract under all conditions. Tools like Echidna and Manticore enable developers to automatically generate test cases based on these properties, uncovering edge cases and vulnerabilities that may not be apparent through manual testing.
+
+Conclusion:
+
+Ethereum smart contract analysis is crucial for ensuring the security, reliability, and functionality of decentralized applications. By employing a combination of static analysis, dynamic analysis, formal verification, and testing techniques, developers can identify and mitigate vulnerabilities early in the development lifecycle. With the growing adoption of blockchain technology, robust smart contract analysis practices are essential to safeguard against potential risks and protect the integrity of decentralized systems.
             </p>
         </div>
         <!-- Add more document links as needed -->
